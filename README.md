@@ -1,6 +1,8 @@
 <div id="top"></div>
+
 ## Narrative Project
-A CRUD application for 
+A CRUD application for marketers to create orders for buyers
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -20,10 +22,7 @@ A CRUD application for
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -31,8 +30,7 @@ A CRUD application for
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](Screenshot 2022-01-24 at 03.24.59)
+![Screenshot 2022-01-24 at 03 24 59](https://user-images.githubusercontent.com/16857803/150713367-572a8b53-7f78-40e1-809c-96da2353794e.png)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -80,23 +78,27 @@ _Below is an example of how you can instruct your audience on installing and set
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/despeauxz/narrativr
    ```
-2. Install NPM packages
+2. Switch to the `master` branch
+3. Install NPM packages
    ```sh
    npm install
    ```
-
+4. Run `npm run serve`, then you be able to preview the project on `http://localhost:8080`
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+Local Storage is used to persist products since there's no time to spin up a NODE server in a mono-repo structure(BE and FE)
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+- By the sidebar, there's a button to create products
+- Products are displayed in 2 views(Grid and List)
+- You can view more details by clicking the cards and then you have action items if you are switched as a Merchant(Update and Delete) for Buyers, they only have the Buy button enabled
+- You can click the delete button and remove product and likewise update button to toggle the product form
 
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -109,9 +111,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [x] ADisplaying an existing buy order (List and Grid)
 - [x] Updating an existing buy order
 - [x] Deleting a buy order
-- [x] Tried to create a buyer and marketer design structure but had little time since I'm still working for a company currently
+- [x] Tried to create a buyer and marketer design structure but had little time since I'm still working for my current employer
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/despeauxz/narrativre/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
